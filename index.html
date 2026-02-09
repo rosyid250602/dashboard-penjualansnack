@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Penjualan Ritel Nasional</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js" defer></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .chart-container {
+            width: 45%;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Dashboard Penjualan Ritel Nasional</h2>
+    <div class="container">
+        <div class="chart-container">
+            <canvas id="salesLineChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="salesPieChart"></canvas>
+        </div>
+    </div>
+</body>
+</html>
